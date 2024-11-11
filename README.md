@@ -9,27 +9,8 @@ A simple RESTful API that allows users to interact with Pokémon data. It suppor
 
 ## Project Structure
 
-pokemon-api/
-├── main.go                      # Main entry point for the application
-├── config/                      # Configuration files
-│   └── config.go                # Configuration settings (e.g., JWT secret)
-├── controllers/                 # API controllers handling request logic
-│   ├── authController.go        # Handles user authentication
-│   └── pokemonController.go     # Handles Pokémon data requests
-├── models/                      # Data models (e.g., User)
-│   └── user.go                  # User model for authentication
-├── services/                    # Business logic for the app
-│   ├── authService.go           # Handles user-related business logic
-│   ├── pokemonService.go        # Handles Pokémon data fetching
-│   └── cacheService.go          # Caching logic for Pokémon data
-├── middleware/                  # Middleware for authentication and other checks
-│   └── authMiddleware.go        # JWT middleware
-├── utils/                       # Utility functions
-│   ├── hash.go                  # Hash utilities for password hashing
-│   └── jwt.go                   # JWT utilities for token creation/validation
-├── Dockerfile                   # Docker configuration
-├── docker-compose.yml           # Docker Compose configuration for services
-└── go.mod                       # Go modules dependencies
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/59d075a7-458f-4b84-b1f2-046a1a661aad">
+
 
 ## Prerequisites
 
